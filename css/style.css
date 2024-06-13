@@ -179,6 +179,58 @@ html {
     padding: 10px;
 }
 
+
+.my-row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: baseline;
+}
+
+.column-first {
+    width: 20%;
+    padding: 5px;
+}
+
+.imglogo {
+    width:200px
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding-right: 10px;
+}
+
+.column-second {
+    width: 60%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.column-third {
+    width:20%;
+    text-align: end;
+}
+
+.loginbutton {
+    background-color: white;
+    border-radius: 50px;
+    width: 80px;
+    height:30px;
+}
+
 .h1title1 {
     color: white;
     text-align: center;
